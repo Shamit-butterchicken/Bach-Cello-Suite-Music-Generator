@@ -1,2 +1,3 @@
 # Bach-Cello-Suite-Music-Generator
 A mini "ChatGPT for sheet music" — custom causal Transformer trained on Bach's Cello Suites to generate original MIDI melodies from custom seed prompts.
+An autoregressive Transformer model built with TensorFlow, Keras, and music21 that learns Baroque harmonic and rhythmic structure from J.S. Bach’s 6 Cello Suites. Instead of text tokens, the model processes parallel sequences of musical pitches and quarter-length durations using sinusoidal positional encoding and causal multi-head self-attention. Seeding the trained network with different starting tokens steers its stylistic output—shifting seamlessly between triple-meter dance movements and rapid sixteenth-note bariolage solos.
